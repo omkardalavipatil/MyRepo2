@@ -1,35 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Temperature Converter</title>
+	<title>Pizza Landing Page</title>
+	<link rel ="stylesheet" type ="text/css" href = "style.css">
 </head>
 <body>
-    <div id="converter-container">
-        <h1>Temperature Converter</h1>
-        <label for="temperatureInput">Enter Temperature:</label>
-        <input type="number" id="temperatureInput" placeholder="Enter temperature" />
-
-        <label for="inputUnit">Select Input Unit:</label>
-        <select id="inputUnit">
-            <option value="celsius">Celsius</option>
-            <option value="fahrenheit">Fahrenheit</option>
-            <option value="kelvin">Kelvin</option>
-        </select>
-
-        <label for="outputUnit">Select Output Unit:</label>
-        <select id="outputUnit">
-            <option value="celsius">Celsius</option>
-            <option value="fahrenheit">Fahrenheit</option>
-            <option value="kelvin">Kelvin</option>
-        </select>
-
-        <button onclick="convertTemperature()">Convert</button>
-        
-        <div id="result">Output: <span id="convertedTemperature"></span> <span id="convertedUnit"></span></div>
-    </div>
-    <script src="script.js"></script>
+<header>
+	<nav>
+		<div class="logo"><span>Pi</span>zza Express</div>
+		<div class="menu">
+			<a href="#">Home</a>
+			<a href="#">Foods</a>
+			<a href="#">Offers</a>
+			<a href="#">Your Order</a>
+			<a href="#">Delivery</a>
+			<a href="#">Cart</a>
+		</div>
+	</nav>
+	<div class="h-text">
+		<p>Free Home Delivery</p>
+		<h1>Quality F<span>oo</span>ds </h1>
+		<h2>Pizza of the Week</h2>
+		<a href="#" id="order">Order now!!</a>
+		<a href="#" id="dis">30% Off Hurry Up!!</a>
+	</div>
+	<div id="pizza">
+		<img src="images/pizza3.png" width="100">	
+		<img src="images/pngwing.png" width="100">
+		<img src="images/pngwing2.png" width="100">
+	</div>
+</header>
 </body>
 </html>
